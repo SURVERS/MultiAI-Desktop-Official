@@ -10,27 +10,38 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest"><img alt="Скачать для Windows" src="https://img.shields.io/badge/Скачать-Windows%20x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
-  <a href="https://multiai.store"><img alt="MultiAI" src="https://img.shields.io/badge/multiai.store-Официальный%20сайт-111827?style=for-the-badge"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Windows-x64.exe"><img alt="Скачать MultiAI Desktop для Windows x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Windows_x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
 </p>
 
 <p align="center">
+  <strong>Обычный компьютер с Windows 10 или 11? Нажимайте синюю кнопку выше.</strong><br>
+  Скачивание установщика начнётся сразу — искать файл внутри Releases не нужно.
+</p>
+
+<p align="center">
+  <a href="https://multiai.store"><img alt="MultiAI" src="https://img.shields.io/badge/multiai.store-Официальный_сайт-111827?style=flat-square"></a>
   <img alt="Latest release" src="https://img.shields.io/github/v/release/SURVERS/MultiAI-Desktop-Official?display_name=tag&style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-0ea5e9?style=flat-square">
-  <img alt="Architecture" src="https://img.shields.io/badge/architecture-x64-64748b?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows_10%2F11-0ea5e9?style=flat-square">
 </p>
 
 ---
 
 ## Скачать
 
-Откройте [последний релиз](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest) и скачайте файл вида:
+| Операционная система | Архитектура | Формат | Статус | Загрузка |
+|---|:---:|:---:|:---:|:---:|
+| **Windows 10/11** | **x64 (64-bit)** | `.exe` | ✅ Поддерживается | **[⬇ Скачать установщик](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Windows-x64.exe)** |
+| Windows 10/11 | x86 (32-bit) | `.exe` | ❌ Не выпускается | — |
+| Linux — универсальный | x64 | `.AppImage` | 🧪 Планируется | Пока нет |
+| Ubuntu / Debian / Mint | x64 | `.deb` | 🧪 Планируется | Пока нет |
+| Fedora / RHEL / openSUSE | x64 | `.rpm` | 🧪 Планируется | Пока нет |
+| Linux | ARM64 | `.AppImage` / `.deb` | ⚪ Не тестировалось | Пока нет |
 
-**MultiAI-Desktop-Setup-VERSION-x64.exe**
+> **x64** — это практически любой современный компьютер на Intel или AMD. Версия Windows x86/32-bit не выпускается.
 
-Поддерживается Windows 10/11 x64. Установщик позволяет выбрать папку установки и создаёт ярлыки приложения.
+### Поддержка Linux
 
-> Текущая Windows-сборка ещё не подписана коммерческим сертификатом. Microsoft SmartScreen может показать предупреждение «Неизвестный издатель». Скачивайте приложение только из раздела Releases этого репозитория и при необходимости сверяйте SHA-256 с файлом SHA256SUMS.txt.
+Официальной Linux-сборки пока нет. Интерфейс и часть системных функций уже учитывают Linux, но перед публикацией необходимо собрать и проверить нативные модули, терминал, файловые операции и автообновление на реальных дистрибутивах. До завершения этих проверок Linux не считается поддерживаемой платформой.
 
 ## Что умеет MultiAI Desktop
 
@@ -52,15 +63,17 @@ Production-сборка использует Releases этого репозит�
 - после загрузки IDE предложит перезапуск;
 - автообновление и дифференциальную загрузку можно отключить в настройках.
 
-Для обновления используются файлы latest.yml, установщик и его .blockmap из одного GitHub Release.
+Для обновления используются файлы `latest.yml`, установщик и его `.blockmap` из одного GitHub Release.
 
 ## Проверка файла
 
 В PowerShell:
 
-    Get-FileHash .\MultiAI-Desktop-Setup-VERSION-x64.exe -Algorithm SHA256
+    Get-FileHash .\MultiAI-Desktop-Windows-x64.exe -Algorithm SHA256
 
-Сравните результат со строкой для установщика в SHA256SUMS.txt того же релиза.
+Сравните результат со строкой для установщика в `SHA256SUMS.txt` последнего релиза.
+
+> Текущая Windows-сборка ещё не подписана коммерческим сертификатом. Microsoft SmartScreen может показать предупреждение «Неизвестный издатель». Скачивайте приложение только из этого официального репозитория.
 
 ## Ссылки
 
