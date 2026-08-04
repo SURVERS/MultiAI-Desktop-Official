@@ -11,17 +11,18 @@
 
 <p align="center">
   <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Windows-x64.exe"><img alt="Скачать MultiAI Desktop для Windows x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Windows_x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.AppImage"><img alt="Скачать MultiAI Desktop для Linux x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Linux_x64-f59e0b?style=for-the-badge&logo=linux&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <strong>Обычный компьютер с Windows 10 или 11? Нажимайте синюю кнопку выше.</strong><br>
-  Скачивание установщика начнётся сразу — искать файл внутри Releases не нужно.
+  <strong>Выберите свою систему и нажмите кнопку выше.</strong><br>
+  Скачивание последней версии начнётся сразу — искать файл внутри Releases не нужно.
 </p>
 
 <p align="center">
   <a href="https://multiai.store"><img alt="MultiAI" src="https://img.shields.io/badge/multiai.store-Официальный_сайт-111827?style=flat-square"></a>
   <img alt="Latest release" src="https://img.shields.io/github/v/release/SURVERS/MultiAI-Desktop-Official?display_name=tag&style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows_10%2F11-0ea5e9?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows_10%2F11_%7C_Linux-0ea5e9?style=flat-square">
 </p>
 
 ---
@@ -32,16 +33,35 @@
 |---|:---:|:---:|:---:|:---:|
 | **Windows 10/11** | **x64 (64-bit)** | `.exe` | ✅ Поддерживается | **[⬇ Скачать установщик](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Windows-x64.exe)** |
 | Windows 10/11 | x86 (32-bit) | `.exe` | ❌ Не выпускается | — |
-| Linux — универсальный | x64 | `.AppImage` | 🧪 Планируется | Пока нет |
-| Ubuntu / Debian / Mint | x64 | `.deb` | 🧪 Планируется | Пока нет |
-| Fedora / RHEL / openSUSE | x64 | `.rpm` | 🧪 Планируется | Пока нет |
-| Linux | ARM64 | `.AppImage` / `.deb` | ⚪ Не тестировалось | Пока нет |
+| **Linux — универсальный** | **x64 (64-bit)** | `.AppImage` | ✅ Поддерживается | **[⬇ Скачать AppImage](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.AppImage)** |
+| Ubuntu / Debian / Mint | x64 (64-bit) | `.deb` | ✅ Поддерживается | **[⬇ Скачать DEB](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.deb)** |
+| Fedora / RHEL / openSUSE | x64 (64-bit) | `.rpm` | ✅ Поддерживается | **[⬇ Скачать RPM](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.rpm)** |
+| Linux | ARM64 | `.AppImage` / `.deb` | ❌ Не выпускается | — |
 
 > **x64** — это практически любой современный компьютер на Intel или AMD. Версия Windows x86/32-bit не выпускается.
 
 ### Поддержка Linux
 
-Официальной Linux-сборки пока нет. Интерфейс и часть системных функций уже учитывают Linux, но перед публикацией необходимо собрать и проверить нативные модули, терминал, файловые операции и автообновление на реальных дистрибутивах. До завершения этих проверок Linux не считается поддерживаемой платформой.
+MultiAI Desktop официально выпускается для Linux x64 в трёх форматах:
+
+- **AppImage** — универсальный вариант для большинства современных дистрибутивов. Установка не нужна;
+- **DEB** — для Ubuntu, Debian, Linux Mint и совместимых систем;
+- **RPM** — для Fedora, RHEL, openSUSE и совместимых систем.
+
+Запуск AppImage:
+
+    chmod +x MultiAI-Desktop-Linux-x64.AppImage
+    ./MultiAI-Desktop-Linux-x64.AppImage
+
+Установка DEB:
+
+    sudo apt install ./MultiAI-Desktop-Linux-x64.deb
+
+Установка RPM:
+
+    sudo dnf install ./MultiAI-Desktop-Linux-x64.rpm
+
+Сборки проверяются как Linux x86-64: включая запуск Electron, терминальный модуль, SQLite, обработку изображений, системные ярлыки и канал автообновления. ARM64 пока не выпускается.
 
 ## Что умеет MultiAI Desktop
 
@@ -63,7 +83,7 @@ Production-сборка использует Releases этого репозит�
 - после загрузки IDE предложит перезапуск;
 - автообновление и дифференциальную загрузку можно отключить в настройках.
 
-Для обновления используются файлы `latest.yml`, установщик и его `.blockmap` из одного GitHub Release.
+Для Windows используются `latest.yml`, установщик и его `.blockmap`; для Linux — `latest-linux.yml` и Linux-пакеты из того же GitHub Release.
 
 ## Проверка файла
 
@@ -72,6 +92,10 @@ Production-сборка использует Releases этого репозит�
     Get-FileHash .\MultiAI-Desktop-Windows-x64.exe -Algorithm SHA256
 
 Сравните результат со строкой для установщика в `SHA256SUMS.txt` последнего релиза.
+
+В Linux:
+
+    sha256sum -c SHA256SUMS-Linux.txt
 
 > Текущая Windows-сборка ещё не подписана коммерческим сертификатом. Microsoft SmartScreen может показать предупреждение «Неизвестный издатель». Скачивайте приложение только из этого официального репозитория.
 
