@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Windows-x64.exe"><img alt="Скачать MultiAI Desktop для Windows x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Windows_x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Setup-0.0.5-x64.exe""><img alt="Скачать MultiAI Desktop для Windows x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Windows_x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
   <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.AppImage"><img alt="Скачать MultiAI Desktop для Linux x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Linux_x64-f59e0b?style=for-the-badge&logo=linux&logoColor=white"></a>
 </p>
 
