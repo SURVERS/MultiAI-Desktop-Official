@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/white-icon.png">
+    <img src="./assets/dark-icon.png" alt="MultiAI Desktop" width="112" height="112">
+  </picture>
+</p>
+
 <h1 align="center">⬇️ Скачать MultiAI Desktop</h1>
 
 <p align="center">

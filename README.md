@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/icon.png" alt="MultiAI Desktop" width="112" height="112">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/white-icon.png">
+    <img src="./assets/dark-icon.png" alt="MultiAI Desktop" width="112" height="112">
+  </picture>
 </p>
 
 <h1 align="center">MultiAI Desktop</h1>
