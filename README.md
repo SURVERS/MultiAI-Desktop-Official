@@ -15,6 +15,7 @@
 <p align="center">
   <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Windows-x64.exe"><img alt="Скачать MultiAI Desktop для Windows x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Windows_x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
   <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.AppImage"><img alt="Скачать MultiAI Desktop для Linux x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Linux_x64-f59e0b?style=for-the-badge&logo=linux&logoColor=white"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Setup-0.0.15-arm64.dmg"><img alt="Скачать MultiAI Desktop для macOS (Apple Silicon)" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-macOS_arm64-6366f1?style=for-the-badge&logo=apple&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -25,7 +26,7 @@
 <p align="center">
   <a href="https://multiai.store"><img alt="MultiAI" src="https://img.shields.io/badge/multiai.store-Официальный_сайт-111827?style=flat-square"></a>
   <img alt="Latest release" src="https://img.shields.io/github/v/release/SURVERS/MultiAI-Desktop-Official?display_name=tag&style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows_10%2F11_%7C_Linux-0ea5e9?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows_10%2F11_%7C_Linux_%7C_macOS-0ea5e9?style=flat-square">
 </p>
 
 ---
@@ -40,6 +41,7 @@
 | Ubuntu / Debian / Mint | x64 (64-bit) | `.deb` | ✅ Поддерживается | **[⬇ Скачать DEB](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.deb)** |
 | Fedora / RHEL / openSUSE | x64 (64-bit) | `.rpm` | ✅ Поддерживается | **[⬇ Скачать RPM](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Linux-x64.rpm)** |
 | Linux | ARM64 | `.AppImage` / `.deb` | ❌ Не выпускается | — |
+| **macOS** | **ARM64 (Apple Silicon)** | `.dmg` / `.zip` | ✅ Поддерживается | **[⬇ Скачать DMG](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-Setup-0.0.15-arm64.dmg)** |
 
 > **x64** — это практически любой современный компьютер на Intel или AMD. Версия Windows x86/32-bit не выпускается.
 
