@@ -13,10 +13,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-win-x64.exe"><img alt="Скачать MultiAI Desktop для Windows x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Windows_x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
-  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-linux-x86_64.AppImage"><img alt="Скачать MultiAI Desktop для Linux x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Linux_x64-f59e0b?style=for-the-badge&logo=linux&logoColor=white"></a>
-  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-mac-arm64.dmg"><img alt="Скачать MultiAI Desktop для macOS (Apple Silicon)" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-macOS_arm64-6366f1?style=for-the-badge&logo=apple&logoColor=white"></a>
-  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-mac-x64.dmg"><img alt="Скачать MultiAI Desktop для macOS (Intel x64)" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-macOS_Intel-4f46e5?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-win-x64.exe"><img alt="Скачать MultiAI Desktop для Windows x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Windows_x64-2563eb?style=for-the-badge&logo=windows11&logoColor=white"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-linux-x86_64.AppImage"><img alt="Скачать MultiAI Desktop для Linux x64" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-Linux_x64-f59e0b?style=for-the-badge&logo=linux&logoColor=white"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-mac-arm64.dmg"><img alt="Скачать MultiAI Desktop для macOS (Apple Silicon)" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-macOS_arm64-6366f1?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-mac-x64.dmg"><img alt="Скачать MultiAI Desktop для macOS (Intel x64)" src="https://img.shields.io/badge/⬇_СКАЧАТЬ_MultiAI_Desktop-macOS_Intel-4f46e5?style=for-the-badge&logo=apple&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -36,15 +36,15 @@
 
 | Операционная система | Архитектура | Формат | Статус | Загрузка |
 |---|:---:|:---:|:---:|:---:|
-| **Windows 10/11** | **x64 (64-bit)** | `.exe` | ✅ Поддерживается | **[⬇ Скачать установщик](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-win-x64.exe)** |
+| **Windows 10/11** | **x64 (64-bit)** | `.exe` | ✅ Поддерживается | **[⬇ Скачать установщик](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-win-x64.exe)** |
 | Windows 10/11 | x86 (32-bit) | `.exe` | ❌ Не выпускается | — |
-| **Linux — универсальный** | **x64 (64-bit)** | `.AppImage` | ✅ Поддерживается | **[⬇ Скачать AppImage](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-linux-x86_64.AppImage)** |
-| Ubuntu / Debian / Mint | x64 (64-bit) | `.deb` | ✅ Поддерживается | **[⬇ Скачать DEB](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-linux-amd64.deb)** |
-| Fedora / RHEL / openSUSE | x64 (64-bit) | `.rpm` | ✅ Поддерживается | **[⬇ Скачать RPM](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-linux-x86_64.rpm)** |
-| Arch Linux / Manjaro | x64 (64-bit) | `.pkg.tar.zst` | ✅ Поддерживается | **[⬇ Скачать пакет](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-linux-x64.pkg.tar.zst)** |
+| **Linux — универсальный** | **x64 (64-bit)** | `.AppImage` | ✅ Поддерживается | **[⬇ Скачать AppImage](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-linux-x86_64.AppImage)** |
+| Ubuntu / Debian / Mint | x64 (64-bit) | `.deb` | ✅ Поддерживается | **[⬇ Скачать DEB](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-linux-amd64.deb)** |
+| Fedora / RHEL / openSUSE | x64 (64-bit) | `.rpm` | ✅ Поддерживается | **[⬇ Скачать RPM](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-linux-x86_64.rpm)** |
+| Arch Linux / Manjaro | x64 (64-bit) | `.pkg.tar.zst` | ✅ Поддерживается | **[⬇ Скачать пакет](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-linux-x64.pkg.tar.zst)** |
 | Linux | ARM64 | `.AppImage` / `.deb` | ❌ Не выпускается | — |
-| **macOS (Apple Silicon)** | **ARM64 (M1/M2/M3/M4)** | `.dmg` / `.zip` | ✅ Поддерживается | **[⬇ Скачать DMG](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-mac-arm64.dmg)** · **[ZIP](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-mac-arm64.zip)** |
-| **macOS (Intel)** | **x64 (64-bit)** | `.dmg` / `.zip` | ✅ Поддерживается | **[⬇ Скачать DMG](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-mac-x64.dmg)** · **[ZIP](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.12-mac-x64.zip)** |
+| **macOS (Apple Silicon)** | **ARM64 (M1/M2/M3/M4)** | `.dmg` / `.zip` | ✅ Поддерживается | **[⬇ Скачать DMG](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-mac-arm64.dmg)** · **[ZIP](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-mac-arm64.zip)** |
+| **macOS (Intel)** | **x64 (64-bit)** | `.dmg` / `.zip` | ✅ Поддерживается | **[⬇ Скачать DMG](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-mac-x64.dmg)** · **[ZIP](https://github.com/SURVERS/MultiAI-Desktop-Official/releases/latest/download/MultiAI-Desktop-1.2.17-mac-x64.zip)** |
 
 > **x64** — это практически любой современный компьютер на Intel или AMD. Версия Windows x86/32-bit не выпускается.
 
@@ -59,20 +59,20 @@ MultiAI Desktop официально выпускается для Linux x64 в 
 
 Запуск AppImage:
 
-    chmod +x MultiAI-Desktop-1.2.12-linux-x86_64.AppImage
-    ./MultiAI-Desktop-1.2.12-linux-x86_64.AppImage
+    chmod +x MultiAI-Desktop-1.2.17-linux-x86_64.AppImage
+    ./MultiAI-Desktop-1.2.17-linux-x86_64.AppImage
 
 Установка DEB:
 
-    sudo apt install ./MultiAI-Desktop-1.2.12-linux-amd64.deb
+    sudo apt install ./MultiAI-Desktop-1.2.17-linux-amd64.deb
 
 Установка RPM:
 
-    sudo dnf install ./MultiAI-Desktop-1.2.12-linux-x86_64.rpm
+    sudo dnf install ./MultiAI-Desktop-1.2.17-linux-x86_64.rpm
 
 Установка в Arch Linux:
 
-    sudo pacman -U ./MultiAI-Desktop-1.2.12-linux-x64.pkg.tar.zst
+    sudo pacman -U ./MultiAI-Desktop-1.2.17-linux-x64.pkg.tar.zst
 
 Сборки проверяются как Linux x86-64: включая запуск Electron, терминальный модуль, SQLite, обработку изображений, системные ярлыки и канал автообновления. ARM64 пока не выпускается.
 
@@ -103,11 +103,11 @@ Production-сборка использует Releases этого репозит�
 
 В PowerShell:
 
-    Get-FileHash .\MultiAI-Desktop-1.2.12-win-x64.exe -Algorithm SHA256
+    Get-FileHash .\MultiAI-Desktop-1.2.17-win-x64.exe -Algorithm SHA256
 
 В Linux / macOS:
 
-    shasum -a 256 MultiAI-Desktop-1.2.12-*
+    shasum -a 256 MultiAI-Desktop-1.2.17-*
 
 > Текущая Windows-сборка ещё не подписана коммерческим сертификатом. Microsoft SmartScreen может показать предупреждение «Неизвестный издатель». Скачивайте приложение только из этого официального репозитория.
 
